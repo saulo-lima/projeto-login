@@ -1,8 +1,66 @@
 @charset "UTF-8";
 
-/*
-#B629DC
-#56DBA9
-#618678
+@media screen and (min-width: 768px) and (max-width:991px){
+    body {
+        background-image: linear-gradient(to bottom, var(--color-rx), var(--color-cn));
+    }
+    section#login {
+        width: 80vw;
+        height: 400px;
+    }
+    
+    section#login  p {
+        margin: 30px 0px;
+    
+    }
 
-*/
+    section#login > div#img{
+        float: left;
+        width: 30%;
+        height: 100%;
+         border-radius: 20px 0px 0px 20px;
+    }
+
+    section#login > div#form {
+        float: right;
+        width: 70%;
+        
+    }
+}
+
+@media screen and (min-width:992px) {
+       body {
+        background-image: linear-gradient(to bottom, var(--color-rx), var(--color-cn));
+    }
+
+       section#login {
+        width: 950px;
+    }
+
+        section#login  p {
+        margin: 60px 0px;
+    
+    }
+
+    section#login > div#img{
+        float: right;
+        width: 50%;
+        height: 100%;
+         border-radius: 0px 20px 20px 0px;
+    }
+
+    section#login > div#form {
+        float: left;
+        width: 50%;
+        
+    }
+    section#login > div#form > h1 {
+    font-size: 2em;
+}
+
+    section#login > div#form > p {
+    font-size: 1.2em;
+    }
+
+
+}
