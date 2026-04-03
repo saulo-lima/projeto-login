@@ -17,16 +17,16 @@
             <div id="form">
                 <h1>Login</h1>
                 <p>Bem-vindo(a) de volta! Faça login para acessar sua conta e personalizar seu ambiente.</p>
-                <form action="login.php" method="post" autocomplete="on">
+                <form action="#" method="post" autocomplete="on">
                     <div class="campo">
                         <span class="material-icons">person</span>
-                        <input type="email" name="login" id="loginID" placeholder="E-mail" autocomplete="email" required max="30">
+                        <input type="email" name="login" id="loginID" placeholder="E-mail" autocomplete="email" required maxlength="30">
                         <label for="loginID">Login:</label>
                     </div>
                     <div class="campo">
                         <span class="material-icons">vpn_key</span>
                         <input type="password" name="password" id="passwordID" autocomplete="current-password" 
-                        placeholder="Password" required min="6" max="20">
+                        placeholder="Password" required minlength="6" maxlength="20">
                         <label for="passwordID">Senha:</label>
                     </div>
                     <input type="submit" value="Entrar">

@@ -93,7 +93,8 @@ div.campo > input:focus {
 }
 
 form label {
-    display: none;
+    position: absolute;
+    left: -9999px;  /*I made this for screen readers (accessibility).*/
 }
 
 
